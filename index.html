@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Верстка сайтов</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML-верстальщик резюме ищу работу">
+    <meta name="keywords" content="HTML-верстальщик, резюме, ищу верстальщика, Css3, HTML5, JS">
+    <meta name="Author" content="Лепешкин Михаил">
+    <!-- open Graf -->
+    <meta property="og:url" content="https://ursusuma.ru"/>
+    <meta property="og:type" content="main"/>
+    <meta property="og:title" content="Верстальщик"/>
+    <meta property=“og:site_name” content="article"/>
+    <meta property="og:locale" content="ru_RU"/>
+    <meta property="og:description" content="Верстка сайтов"/>
+    <meta property="og:image" content="https://ursusuma.ru/img/software.jpg">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://kit.fontawesome.com/2e204faaa2.js" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+<div class="preloader" style="display: none;">
+    <div class="circle">
+        <div class="circleShadow"></div>
+        <div class="roatate"></div>
+    </div>
+</div>
+<div class="wrapButtonUp">
+    <div class="arrowUp">
+        <a href="#firstScreen">
+                <span class="circleSpan">
+                    <span class="firstBird"></span>
+                    <span class="twoBird"></span>
+                </span>
+        </a>
+    </div>
+</div>
+<header>
+    <nav>
+        <div class="burger">
+            <a href="#" class="burger_link">
+                <span class="fLine"><span></span></span>
+                <span class="tLine"><span></span></span>
+                <span class="treeLine"><span></span></span>
+            </a>
+        </div>
+        <div class="nav__animate">
+            <div class="nav__menu">
+                <ul>
+                    <li><a href="#firstScreen"><i class="fas fa-hand-point-up"></i></a></li>
+                    <li><a href="#about"><i class="fas fa-chalkboard-teacher"></i>О себе</a></li>
+                    <li><a href="#myWorks"><i class="fas fa-folder-open"></i>Мои работы</a></li>
+                    <li><a href="#myContact"><i class="fa fa-paper-plane-o" aria-hidden="true"></i>Контакты</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+    <!-- СЕКЦИЯ ПЕРВОГО ЭКРАНА -->
+    <div class="bgFirst fullScreen"></div>
+    <section class="fullScreen first-screen" id="firstScreen">
+        <div class="container">
+            <div class="first-screen__inner">
+                <div class="first-screen__content">
+                    <div class="blockquite">
+                        <h1 class="blockquite__title _anim-items _anim-none">"Разработка web-сайтов, верстка, посадка на
+                            cms WP, Bitrix."</h1>
+
+                    </div>
+                    <div class="arrow">
+                        <a href="#about">
+                            <span class="circleSpan">
+                                <span class="firstBird"></span>
+                                <span class="twoBird"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+                <div class="first-screen__contact">
+                    <ul>
+                        <li>
+                            <a href="mailto:lepeshkinm@gmail.com?subject=Обращение_с_сайта"><i class="fa fa-envelope" aria-hidden="true"></i><span>E-mail:</span>lepeshkinm@gmail.com</a>
+                        </li>
+                        <li><a href="tel:+79490713820367"><i class="fa fa-mobile"></i>+7(949) 382-03-67</a></li>
+                        <li><a href="https://t.me/UmaBear"><i class="fa fa-telegram" aria-hidden="true"></i>https://t.me/UmaBear</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- СЕКЦИЯ ВТОРОГО ЭКРАНА -->
+    <section id="about">
+        <div class="container">
+            <div class="about-wrap-card">
+                <div class="anim_down-wrap _anim-items">
+                    <div class="card card_full anim_down ">
+                        <div class="card-inner ">
+                            <h2 class="card__title">Лепёшкин Михаил Александрович</h2>
+                            <h3 class="card__subtitle">Верстка, посадка на cms.</h3>
+                            <ul class="card__content">
+                                <li class="card__item">Образование: высшее (непрофильное), переквалификация в
+                                    компьютерной школе
+                                    "УниТех" г.Донецк ДНР;
+                                </li>
+                                <li class="card__item">Опыт работы 2 года;</li>
+                                <li class="card__item">Личные качества: ответственность, пунктуальность,
+                                    аккуратность,неконфликтность;
+                                </li>
+                                <li class="card__item">Цель: профессианальный рост в области front-end разработки и
+                                    дорасти до full-stack разработчика, найти работу удаленно или получить заказ;
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card  anim_left _anim-items ">
+                    <div class="card-inner">
+                        <span class="card__title">HTML 5</span>
+                        <ul class="card__content">
+                            <li class="card__item"> язык для структурирования и представления содержимого всемирной
+                                паутины;
+                            </li>
+                            <li class="card__item">использование семантических тегов;</li>
+                            <li class="card__item">SVG, canvas;</li>
+                            <li class="card__item">кроссбраузерная верстка;</li>
+                            <li class="card__item">проверка на валидность;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card anim_right _anim-items">
+                    <div class="card-inner">
+                        <span class="card__title">CSS 3</span>
+                        <ul class="card__content">
+                            <li class="card__item">это формальный язык, служащий для описания оформления внешнего вида
+                                документа, созданного с использованием языка разметки;
+                            </li>
+                            <li class="card__item">@keyframes;</li>
+                            <li class="card__item">анимация;</li>
+                            <li class="card__item">адаптация, медиа-запросы;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card anim_left _anim-items">
+                    <div class="card-inner">
+                        <span class="card__title">JavaScript</span>
+                        <ul class="card__content">
+                            <li class="card__item">язык программирования, который используется как встраиваемый язык для
+                                программного доступа к объектам приложений;
+                            </li>
+                            <li class="card__item">анимация изображений, блоков, текста ;</li>
+                            <li class="card__item">адаптация, скролы, аккордеоны, табы и многое другое;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card anim_right _anim-items">
+                    <div class="card-inner">
+                        <span class="card__title">PHP</span>
+                        <ul class="card__content">
+                            <li class="card__item">это серверный язык программирования;</li>
+                            <li class="card__item">динамически обновляемый контент;</li>
+                            <li class="card__item">это то что отвечает за логику и функционал сайта;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card anim_left _anim-items">
+                    <div class="card-inner">
+                        <span class="card__title">WordPress</span>
+                        <ul class="card__content">
+                            <li class="card__item">система управления содержимым вашего сайта;</li>
+                            <li class="card__item">создание лендингов;</li>
+                            <li class="card__item">натяжка статических страниц на WP;</li>
+                            <li class="card__item">создание шаблонов страниц, записей;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="card anim_right _anim-items">
+                    <div class="card-inner">
+                        <span class="card__title">BITRIX</span>
+                        <ul class="card__content">
+                            <li class="card__item">система управления содержимым вашего сайта;</li>
+                            <li class="card__item">корпоративные сайты;</li>
+                            <li class="card__item">интернет-магазины;</li>
+                            <li class="card__item">создание шаблонов страниц, записей;</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="anim_down-wrap _anim-items">
+                    <div class="card card_full anim_down ">
+                        <div class="card-inner ">
+                            <span class="card__title">Что я использую:</span>
+                            <div class="icon-wrap">
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">HTML5</span>
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">CSS3</span>
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">Sass</span>
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">JS</span>
+                                    </div>
+                                </div>
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">JQuery</span>
+                                    </div>
+                                </div>
+
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">Open<br> Server</span>
+                                    </div>
+                                </div>
+
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">Gulp</span>
+                                    </div>
+                                </div>
+
+                                <div class="icon">
+                                    <div class="icon-inner">
+                                        <span class="icon__text">PHP</span>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- СЕКЦИЯ ТРЕТЬЕГО ЭКРАНА -->
+    <section id="myWorks" class="my-works _anim-items">
+        <span class="my-works__title">Мои работы</span>
+        <div class="container my-works__slide">
+            <div class="my-works__inner">
+                <div class="my-works__text">
+                    Интернет-магазин одежды из Европы, посадка на cms Bitrix, все кроме личного кабинета.
+                </div>
+                <a class="my-works__link" href="https://catalogclub.ru/" target="_blank">
+
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/catalogclub.ru-min.png" alt="photo">
+                </a>
+
+
+                <div class="my-works__text">
+                    Сайт для продажи кулинарных мероприятий,интернет-магазин с корзиной, верстка сайта, посадка на cms
+                    Bitrix, динамическое обновление мероприятий на странице мастер-классов(вывод торговых предложений
+                    как товаров)
+                </div>
+                <a class="my-works__link" href="https://delgusto.ru" target="_blank">
+                    <!-- <a class="my-works__link" href="forsh/catalog.html" target="_blank"> -->
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/delgusto.ru-min.png" alt="photo">
+                </a>
+
+
+                <div class="my-works__text">
+                    Сайт по продаже полимерных листов, интернет-магазин без корзины, заказы через формы, верстка сайта,
+                    посадка на cms Bitrix.
+                </div>
+                <a class="my-works__link" href="https://ftkrostr.ru/" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/ftkrostr.ru-min.png" alt="photo">
+                </a>
+
+
+                <div class="my-works__text">
+                    Сайт администрации г.Евпатория, верстка сайта, посадка на cms Bitrix.
+                </div>
+                <a class="my-works__link" href="https://my-evp.ru" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/my-evp.ru-min.png" alt="photo">
+                </a>
+
+                <div class="my-works__text">
+                    Интернет-магазин по продаже поликарбоната,верстка сайта, посадка на cms Bitrix.
+                </div>
+                <a class="my-works__link" href="http://ruspolik.ru" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/ruspolik.ru-min.png" alt="photo">
+                </a>
+
+
+                <div class="my-works__text">
+                    Сайт-визитка по продаже окон, верстка сайта, посадка на cms WP.
+                </div>
+                <a class="my-works__link" href="https://vse-dlya-okon.ru/" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/vse-dlya-okon.ru-min.png" alt="photo">
+                </a>
+
+                <div class="my-works__text">
+                    Сайт-визитка страховой компании, верстка сайта, посадка на cms WP.
+                </div>
+                <a class="my-works__link" href="https://хатхор.рф/" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/hathor-min.png" alt="photo">
+                </a>
+
+                <div class="my-works__text">
+                    Интернет-магазин, посадка на cms Bitrix
+                </div>
+                <a class="my-works__link" href="https://gidro-z.ru/" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/gidro-z.ru-min.png" alt="photo">
+                </a>
+
+                <div class="my-works__text">
+                    Сайт-визитка пивоварни, верстка сайта, посадка на cms WP.
+                </div>
+                <a class="my-works__link" href="https://fbrewery.ru/" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/fbrewery.ru-min.png" alt="photo">
+                </a>
+
+                <div class="my-works__text">
+                    Сайт-визитка по продаже садовых культур, верстка сайта, посадка на cms WP.
+                </div>
+                <a class="my-works__link" href="https://саженцы-в-клину.рф/" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/clin-min.png" alt="photo">
+                </a>
+
+                <div class="my-works__text">
+                    Доска объявлений, верстка, посадка на cms Bitrix
+                </div>
+                <a class="my-works__link" href="https://almazdelta.ru" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/almazdelta.ru-min.png" alt="photo">
+                </a>
+
+                <div class="my-works__text">
+                    Новостной портал, верстка сайта, посадка на cms WP.
+                </div>
+                <a class="my-works__link" href="https://1500pro.ru/" target="_blank">
+                    <div class="my-works__ver-line"></div>
+                    <div class="my-works__hor-line"></div>
+                    <img class="my-works__img" src="img/1500pro.ru1-min.png" alt="photo">
+                </a>
+            </div>
+        </div>
+    </section>
+</main>
+<footer id="myContact">
+    <div class="container">
+        <ul>
+            <li>
+                <p>Мои контакты:</p>
+            </li>
+            <li><a href="tel:+79490713820367"><i class="fa fa-mobile"></i>+7(949) 071-382-03-67</a></li>
+            <li>
+                <a href="mailto:lepeshkinm@gmail.com?subject=Обращение_с_сайта"><i class="fa fa-envelope" aria-hidden="true"></i>lepeshkinm@gmail.com</a>
+            </li>
+            <li><a href="https://t.me/UmaBear"><i class="fa fa-telegram" aria-hidden="true"></i>https://t.me/UmaBear</a>
+            </li>
+        </ul>
+    </div>
+</footer>
+</body>
+
+</html>
