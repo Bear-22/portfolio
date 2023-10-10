@@ -428,10 +428,10 @@ body {
 
 /*  КЛАСС ПЕРВОГО БЭКГРАУНДА ПОДЛОЖКИ */
 .bgFirst {
-      background: url('../img/software.jpg') center/cover no-repeat;
-  /*  background-position: center center;
+    /*  background: url('../img/software.jpg') center/cover no-repeat;*/
+    background-position: center center;
     background-size: cover;
-    background-repeat: no-repeat;*/
+    background-repeat: no-repeat;
     position: fixed;
     z-index: -1;
 }
