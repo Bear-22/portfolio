@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     style="margin:auto;background:transparent;display:block;" width="100px" height="100px" viewBox="0 0 100 100"
+     preserveAspectRatio="xMidYMid">
+    <circle cx="75" cy="50" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-4.166666666666666s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-4.166666666666666s"></animate>
+    </circle>
+    <circle cx="71.65063509461098" cy="62.5" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-3.7878787878787876s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-3.7878787878787876s"></animate>
+    </circle>
+    <circle cx="62.5" cy="71.65063509461096" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-3.4090909090909087s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-3.4090909090909087s"></animate>
+    </circle>
+    <circle cx="50" cy="75" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-3.0303030303030303s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-3.0303030303030303s"></animate>
+    </circle>
+    <circle cx="37.50000000000001" cy="71.65063509461098" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-2.6515151515151514s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-2.6515151515151514s"></animate>
+    </circle>
+    <circle cx="28.34936490538903" cy="62.5" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-2.2727272727272725s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-2.2727272727272725s"></animate>
+    </circle>
+    <circle cx="25" cy="50" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-1.8939393939393938s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-1.8939393939393938s"></animate>
+    </circle>
+    <circle cx="28.34936490538903" cy="37.50000000000001" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-1.5151515151515151s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-1.5151515151515151s"></animate>
+    </circle>
+    <circle cx="37.499999999999986" cy="28.349364905389038" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-1.1363636363636362s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-1.1363636363636362s"></animate>
+    </circle>
+    <circle cx="49.99999999999999" cy="25" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-0.7575757575757576s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-0.7575757575757576s"></animate>
+    </circle>
+    <circle cx="62.5" cy="28.349364905389034" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="-0.3787878787878788s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="-0.3787878787878788s"></animate>
+    </circle>
+    <circle cx="71.65063509461096" cy="37.499999999999986" fill="#dadada" r="5">
+        <animate attributeName="r" values="3;3;5;3;3" times="0;0.1;0.2;0.3;1" dur="4.545454545454546s"
+                 repeatCount="indefinite" begin="0s"></animate>
+        <animate attributeName="fill" values="#dadada;#dadada;#000000;#dadada;#dadada" repeatCount="indefinite"
+                 times="0;0.1;0.2;0.3;1" dur="4.545454545454546s" begin="0s"></animate>
+    </circle>
+</svg>

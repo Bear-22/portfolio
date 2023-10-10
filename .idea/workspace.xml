@@ -27,6 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c337753b-2726-44e6-a04e-7f7dd89fa26c" name="Default Changelist" comment="change phone">
+      <change afterPath="$PROJECT_DIR$/img/loader.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +88,7 @@
       <workItem from="1657696453220" duration="1368000" />
       <workItem from="1674823154509" duration="3980000" />
       <workItem from="1695716566502" duration="1839000" />
-      <workItem from="1696927159992" duration="1240000" />
+      <workItem from="1696927159992" duration="1859000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1657557216993</created>
@@ -121,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696928096988</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="change js">
+      <created>1696928446034</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696928446034</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +168,8 @@
     <MESSAGE value="27.01.23" />
     <MESSAGE value="add b-lazy" />
     <MESSAGE value="add skinelly" />
-    <option name="LAST_COMMIT_MESSAGE" value="add skinelly" />
+    <MESSAGE value="change js" />
+    <option name="LAST_COMMIT_MESSAGE" value="change js" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1695722307856">

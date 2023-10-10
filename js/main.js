@@ -7,9 +7,15 @@ window.onload = function () {
     }, 500);
 }
 $(document).ready(function () {
-
-
-    var bLazy = new Blazy();
+    var bLazy = new Blazy({
+        offset: 100
+        , success: function (element) {
+            setTimeout(function () {
+                var parent = element.parentNode;
+                parent.className = parent.className.replace(/\bloading\b/, '');
+            }, 200);
+        }
+    });
     // ПЛАВНЫЙ СКРОЛ ПО ССЫЛКЕ ПЕРВОГО ЭКРАНА
     $(".arrow").on("click", "a", function (event) {
         //отменяем стандартную обработку нажатия по ссылке

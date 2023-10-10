@@ -287,9 +287,11 @@ button:-moz-focusring,
 html {
     font-size: calc((100vw - 320px) / (1200 - 320) * (16 - 14) + 14px);
 }
-body{
-       font-family: "Regular";
+
+body {
+    font-family: "Regular";
 }
+
 h1 {
     font: 2.5rem "Bold";
     color: #fff;
@@ -426,7 +428,7 @@ body {
 
 /*  КЛАСС ПЕРВОГО БЭКГРАУНДА ПОДЛОЖКИ */
 .bgFirst {
-  /*  background: url('../img/software.jpg') center/cover no-repeat;*/
+    /*  background: url('../img/software.jpg') center/cover no-repeat;*/
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -993,6 +995,27 @@ nav {
 
 }
 
+.b-lazy {
+    -webkit-transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    -o-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out;
+    max-width: 100%;
+    opacity: 0;
+}
+
+.b-lazy.b-loaded {
+    opacity: 1;
+}
+
+.b-lazy.b-loaded {
+    opacity: 1;
+}
+
+.loading {
+    max-height: 100%;
+    background: url("/img/loader.svg") center center no-repeat, rgba(0, 0, 0, 0.1);
+}
 
 .my-works__img {
     width: 100%;
