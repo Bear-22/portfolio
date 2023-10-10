@@ -27,8 +27,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c337753b-2726-44e6-a04e-7f7dd89fa26c" name="Default Changelist" comment="change phone">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <workItem from="1657696453220" duration="1368000" />
       <workItem from="1674823154509" duration="3980000" />
       <workItem from="1695716566502" duration="1839000" />
-      <workItem from="1696927159992" duration="2281000" />
+      <workItem from="1696927159992" duration="3005000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1657557216993</created>
@@ -136,7 +137,28 @@
       <option name="project" value="LOCAL" />
       <updated>1696929175615</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="change preloader">
+      <created>1696929475860</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696929475860</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change preloader">
+      <created>1696929662567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1696929662567</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change css">
+      <created>1696929935117</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696929935117</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,6 +195,7 @@
     <MESSAGE value="add b-lazy" />
     <MESSAGE value="add skinelly" />
     <MESSAGE value="change js" />
+    <MESSAGE value="change preloader" />
     <MESSAGE value="change css" />
     <option name="LAST_COMMIT_MESSAGE" value="change css" />
   </component>
