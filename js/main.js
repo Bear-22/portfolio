@@ -1,12 +1,13 @@
 // прелоадер
 window.onload = function () {
-    document.body.classList.add('loaded_hiding');
-    window.setTimeout(function () {
-        document.body.classList.add('loaded');
-        document.body.classList.remove('loaded_hiding');
-    }, 500);
+    /*   document.body.classList.add('loaded_hiding');
+       window.setTimeout(function () {
+
+       }, 500);*/
 }
 $(document).ready(function () {
+    document.body.classList.add('loaded');
+    document.body.classList.remove('loaded_hiding');
     var bLazy = new Blazy({
         offset: 100
         , success: function (element) {
@@ -196,4 +197,5 @@ $(document).ready(function () {
     /*вызываем функции сразу для того , что бы элементы которые видны при загрузке страницы
      в начале сразу анимировались не дожидаясь события скролла*/
     animOnScroll();
+
 });
