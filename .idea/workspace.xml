@@ -27,9 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c337753b-2726-44e6-a04e-7f7dd89fa26c" name="Default Changelist" comment="change phone">
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +85,7 @@
       <workItem from="1657696453220" duration="1368000" />
       <workItem from="1674823154509" duration="3980000" />
       <workItem from="1695716566502" duration="1839000" />
-      <workItem from="1696927159992" duration="3195000" />
+      <workItem from="1696927159992" duration="3725000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1657557216993</created>
@@ -172,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1696930300008</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="change">
+      <created>1696930366687</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696930366687</updated>
+    </task>
+    <task id="LOCAL-00014" summary="change">
+      <created>1696930707444</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696930707444</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +225,8 @@
     <MESSAGE value="change css" />
     <MESSAGE value="change first screen" />
     <MESSAGE value="change js" />
-    <option name="LAST_COMMIT_MESSAGE" value="change js" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1695722307856">
